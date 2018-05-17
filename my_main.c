@@ -190,7 +190,7 @@ void my_main() {
           break;
 	  
 	case DISPLAY:
-	  display(*t);
+	  display(t);
           break;
       
         case SAVE:
