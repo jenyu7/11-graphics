@@ -1,0 +1,24 @@
+//bottom ball
+push
+move 250 100 0
+rotate y -10
+sphere 0 0 0 40
+pop
+//foot bar
+push
+move 250 150 0
+rotate y -100
+torus 0 0 0 20 50
+pop
+//main shaft
+push
+move 250 200 0
+box -15 250 0 30 300 20
+//handlebar
+push
+move 0 200 0
+rotate y -100
+torus 0 0 0 20 30
+pop
+display
+save pogo.png
